@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Ken-Te-vi</title>
+</head>
+<!-- corpo-->
+<body>
+    <!-- cabeçalho-->
+    <div class="container">
+        <header  class="cabecalho">
+        <!-- imagem logo-->
+        <figure class="cabecalho__logo"> 
+            <img  src="./assets/img/logo.png" alt="logo ken">
+            <figcaption hidden>logo do ken-Te-Vi </figcaption>
+        </figure>
+        <!--menu de navegação-->
+        <nav class="cabecalho__menuNavegacao">
+            <!--lista de links-->
+            <ul class="cabecalho__menuLista">
+                <li class="cabecalho__menuItem">
+                    <img src="./assets/img/pagina-inicial.png" alt="">
+                    <a href="">Página Inicial</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="./assets/img/explorar.png" alt="">
+                    <a href="">Explorar</a> 
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="./assets/img/notificações.png" alt="">
+                    <a href="">Notificações</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="./assets/img/mensagens.png" alt="">
+                    <a href="">Mensagens</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="./assets/img/salvo.png" alt="">
+                    <a href="">Itens salvos</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="./assets/img/lista.png"alt="">
+                    <a href="">Listas</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="./assets/img/perfil.png" alt=""
+                     width="60px"
+                    height="60px">
+                    <a href="">Perfil</a>
+                </li>
+
+                <li class="cabecalho__menuItem">
+                    <img src="./assets/img/mais.png" alt="">
+                    <a href="">mais</a>
+                </li>   
+
+            </ul>
+        </nav>
+        </header>
+        <main class="conteudoPrincipal  ">
+        <!--Titulo-->
+        <h3 class="conteudoPrincipal__titulo" >Home</h3>
+        <!--Formuláriof-->
+        <form action="#" class="conteudoPrincipal__formulario">
+            <textarea  name="" id="textoTweet" placeholder="escreva o seu comentario"></textarea>
+
+             <button type="submit" > Tweetar</button>
+        </form>
+        <section class="conteudoPrincipal__feed" >
+
+            <ul class="conteudoPrincipal__listaTweet">
+                 <!--Noticia -->
+                 <li class="conteudoPrincipal__tweets">
+                    <!--imagen do usuario-->
+                     <img  class="tweet__fotoPerfil" src="./assets/img/perfil.png" alt="Zaida"
+                     width="60px"
+                     height="60px">
+                     <!--caixa com informações do usuario-->
+                     <div class="tweed__conteudo" >
+                         <h2>Danil</h2>
+                         <span>@Danielkenzie - 14s</span>
+                         <p>MAS DE 1 MILHÂO DE VAGAS! Artigo da Mckinsey aponta que , até 2030 
+                             o Brasil terá um gargalo de 1 mil profissiionais de tecnologia.
+                             É hora de se prparar ... #VouSerDev #DoZeroAo
+                         </p>
+                     </div>
+                 </li>
+                  <!--Noticia -->
+                 <li class="conteudoPrincipal__tweets">
+                    <!--imagen do usuario-->
+                     <img  class="tweet__fotoPerfil" src="./assets/img/perfil.png" alt="Zaida"
+                     width="60px"
+                     height="60px">
+                     <!--caixa com informações do usuario-->
+                     <div class="tweed__conteudo" >
+                         <h2>Hudson Carolino </h2>
+                         <span>@Hudsoncarolino 14s</span>
+                         <p>MAS DE 1 MILHÂO DE VAGAS! Artigo da Mckinsey aponta que , até 2030 
+                             o Brasil terá um gargalo de 1 mil profissiionais de tecnologia.
+                             É hora de se prparar ... #VouSerDev #DoZeroAo
+                         </p>
+                     </div>
+                 </li>
+                  <!--Noticia -->
+                 <li class="conteudoPrincipal__tweets">
+                    <!--imagen do usuario-->
+                     <img  class="tweet__fotoPerfil" src="./assets/img/perfil.png" alt="Zaida"
+                     width="60px"
+                     height="60px">
+                     <!--caixa com informações do usuario-->
+                     <div class="tweed__conteudo" >
+                         <h2>Maria Porcina</h2>
+                         <span>@Mariap.na 14s</span>
+                         <p>Este é um Tweet Pode ser longo ou curto. Depende do que voçe tem a dizer 
+                     </div>
+                    <!-- </li> -->
+                
+   
+            </ul>
+            
+        </section>
+
+        </main>
+     </div>
+     <script src="./js/script.js"> </script>
+    
+</body>
+</html>
